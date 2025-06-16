@@ -193,13 +193,31 @@ table tbody tr:hover {
     transition: background-color 0.3s ease;
     margin-top: 10px;
 }
-
 .geolocation-section button:hover {
     background-color: #5a6268;
 }
-
 #locationMessage {
     margin-top: 15px;
     font-weight: bold;
     color: #007bff;
+}
+.social-links {
+    margin-top: 30px;
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+}
+.social-links a {
+    color: #333; 
+    font-size: 40px; 
+    transition: color 0.3s ease; 
+}
+.social-links a:hover .fa-github {
+    color: #333; 
+}
+.social-links a:hover .fa-linkedin {
+    color: #0077B5; 
+}
+.social-links a:hover {
+    text-decoration: none; 
 }
